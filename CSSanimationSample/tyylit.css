@@ -1,0 +1,77 @@
+html, body {overflow-x:hidden; overflow-y: hidden}
+body {background-color: black}
+#tolppa { position:absolute; top:0; bottom:0;}
+
+#tolppa {
+    position:absolute;
+    height: 100%;
+    width: 5%;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+    margin-left: -10%;
+    z-index: -1;
+}
+
+#bunny {
+    display: none;
+}
+
+#tolpat {
+    margin-left: 10px;
+}
+
+@keyframes slidein {
+    0%   {margin-left: -20%}
+    50%  {margin-left: 150%}
+    100%   {margin-left: -30%}
+}
+
+#owl {
+    position:absolute;
+    height:10%;
+    width:10%;
+    animation-duration: 8s;
+    animation-name: pollo;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+
+@keyframes pollo {
+    0%   {left:  -2%; top:  0%}
+    25%  {left:  90%; top:  90%}
+    50%  {left:  -2%; top:  90%}
+    75%  {left:  90%; top:  0%}
+    100% {left:  -2%; top:  0%}
+}
+
+#canvasV {
+    position:absolute;
+    width: 30%;
+    height: 90%;
+    animation-duration: 10s;
+    animation-name: canV;
+    animation-iteration-count:infinite;
+}
+
+@keyframes canV {
+    0%   {left: 0%}
+    50%  {left: 35%}
+    100% {left: 0%}
+}
+
+#canvas {
+    position:absolute;
+    width: 30%;
+    height: 90%;
+    animation-duration: 10s;
+    animation-name: canO;
+    animation-iteration-count:infinite;
+}
+
+@keyframes canO {
+    0%   {left: 80%}
+    50%  {left: 50%}
+    100% {left: 80%}
+}

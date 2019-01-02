@@ -1,0 +1,19 @@
+    <svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg">
+        
+    <defs>
+      <linearGradient id="Gradient1">
+        <stop class="stop1" offset="0%"/>
+        <stop class="stop2" offset="50%" style="stop-color:rgb(0,225,255);stop-opacity:1"/>
+        <stop class="stop3" offset="100%"/>
+      </linearGradient>
+      <style type="text/css"><![CDATA[
+        #rect1 { fill: url(#Gradient1); }
+        .stop1 { stop-color: black; }
+        .stop2 { stop-color: lightblue; }
+        .stop3 { stop-color: black; }
+      ]]></style>
+        </defs> 
+        <rect id="tolppa" width="100%" height="100%" fill="url(#Gradient1)"></rect>
+      </svg>
