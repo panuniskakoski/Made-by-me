@@ -1,0 +1,46 @@
+!https://tim.jyu.fi/view/kurssit/tie/ohj2/2018k/ht/paronisk                = Suunnitelma TIMiss‰
+
+@https://trac.cc.jyu.fi/projects/ohj2ht/browser/k2018/paronisk#tags/vaihe3 = Linkki versiohallintaan
+
+= <h3>OHJELMAN AVUSTUS</h3>
+= ----------------
+kuvat/paaikkunak.png 	= ohjelman p‰‰ikkuna (k‰sin piirretty)
+kuvat/avaak.png      	= kuva ohjelman alusta (kp)
+kuvat/avaas.png	     	= kuva ohjelman alusta (SceneBuilder)
+kuvat/lisaaautos.png 	= kuva n‰kym‰st‰, kun ohjelmaan lis‰t‰‰n auto (SceneBuilder)
+kuvat/paaikkunas.png 	= kuva ohjelman p‰‰ikkunasta (SceneBuilder)
+kuvat/tietorakennekuva.png	= kuva tietorakenteesta (ASCII grafiikka)
+
+= <h3>MUITA TIEDOSTOJA</h3>
+= ----------------
+.project 	     = jotain projektin filuja (suositeltiin lis‰‰m‰‰n)
+.classpath 	     = projektin polku (suositeltiin ls‰‰m‰‰n)
+build.xml	     = projektin xml-tiedosto
+
+rekisteri/autot.dat	= Autojen tiedosto
+rekisteri/mallit.dat	= Mallien tiedosto
+rekisteri/merkit.dat	= Merkkien tiedosto
+
+
+= <h3>KƒYTT÷LIITTYMƒN ULKOASU JAVAFX:LLƒ</h3>
+= ----------------------------------
+fxLaaturaporttiApp\aloitusikkuna.fxml 		  	  = Aloitusikkunan ulkoasutiedosto 
+fxLaaturaporttiApp\aloitusikkunaController.java	  	  = Aloitusikkunan controller-tiedosto
+fxLaaturaporttiApp\autonlisaaminen.fxml 		  = Uuden auton lis‰‰misen ulkoasutiedosto
+fxLaaturaporttiApp\autonmuokkaaminen.fxml	 	  = Auton muokkaamisen ulkoasutiedosto
+fxLaaturaporttiApp\AutoDialogController.java	  	  = Uuden auton lis‰‰misen controller-tiedosto
+fxLaaturaporttiApp\AutonMuokkausDialogController.java	  = Auton muokkaamisen controller-tiedosto
+fxLaaturaporttiApp\laaturaporttiapp.css 		  = Ohjelman tyylitiedosto
+fxLaaturaporttiApp\RekisteriGUIController.java 	 	  = Ohjelman controller-tiedosto
+fxLaaturaporttiApp\RekisteriGUIView.fxml 	  	  = P‰‰n‰kym‰n ulkoasutiedosto
+fxLaaturaporttiApp\RekisteriMain.java 	   	  	  = P‰‰ohjelma
+
+= <h3>KƒYTT÷LIITTYMƒ</h3>
+= ----------------------------------
+LaaturaporttiApp\Auto.java
+LaaturaporttiApp\Autot.java
+LaaturaporttiApp\SailoException.java
+
+= <h3>AJETTAVA OHJELMA</h3>
+= ----------------
+LaaturaporttiApp.jar = ajettava ohjelma, lataa ja aja

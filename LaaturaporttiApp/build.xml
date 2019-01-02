@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project LaaturaporttiApp">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="C:/Users/panun/Desktop/Koulu/Ohjelmointi 2/Workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/LaaturaporttiApp.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="fxLaaturaporttiApp.RekisteriMain"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.jarfile}/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/devel/ec47/eclipse/plugins/org.eclipse.fx.ide.css.jfx8_3.0.0.201705220750.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/panun/Desktop/Koulu/Ohjelmointi 2/Ali.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/panun/AppData/Roaming/Scene Builder/Library/fxgui.jar"/>
+        </jar>
+    </target>
+</project>

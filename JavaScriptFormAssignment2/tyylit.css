@@ -1,0 +1,138 @@
+@media screen and (min-width: 601px) {
+    
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 900px;
+}
+
+.column {
+    flex: 110%;
+}
+    
+    #joukkueLista {
+        float: right;
+    }
+    
+    #joukkueenNimi {
+        float: right;
+    }
+    
+    #luontiAika {
+        float: right;
+    }
+    
+    #leimaLab {
+        float: right;
+        clear: both;
+    }
+    
+    #radioS {
+        float: right;
+        clear: both;  
+    }
+    
+    input[name="jasen"] {
+        float: right;
+    }
+    
+    #kilpailunNimi {
+        float:right;
+    }
+    
+    #kilpailunKesto {
+        float:right;
+    }
+    
+    #alkuaika {
+        float:right;
+    }
+    
+    #loppuaika {
+        float:right;
+    }
+    
+    #kilpailu {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+#field {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    }
+    .column :nth-child(1) { order: 5; }
+    .column :nth-child(2) { order: 4; }
+    .column :nth-child(3) { order: 3; }
+    .column :nth-child(4) { order: 2; }
+    .column :nth-child(5) { order: 1; }
+
+    
+    br {
+        display: none;
+    }
+    
+    #kilp {
+        max-width: 360px;
+    }
+    
+    #joukkueenlisays {
+        max-width: 360px;
+    }
+    
+    #jasenet {
+        max-width: 360px;
+    }
+    
+    #joukkuelista {
+        max-width: 360px;
+        
+    }
+    
+    #joukkueenNimi {
+        margin-left:5px;
+    }
+    
+    #luontiAika {
+        margin-left:5px;
+    }
+    
+    #leimaLab {
+        margin-left:5px;
+    }
+    
+    #kilpailunNimi {
+        margin-left:5px;
+    }
+    
+    #kilpailunKesto {
+        margin-left:5px;
+    }
+    
+    #alkuaika {
+        margin-left:5px;
+    }
+    
+    #loppuaika {
+        margin-left:5px;
+    }
+    
+    input[name="CB"] {
+        display: inline-block;
+        margin-left:5px;
+    }
+    
+    
+    input[name="sarja"] {
+        display: inline;
+    }
+    
+    #radioS {  
+        margin-left:5px;
+    }
+    
+    #kilpailu {
+        margin-left:5px;
+    }
+}

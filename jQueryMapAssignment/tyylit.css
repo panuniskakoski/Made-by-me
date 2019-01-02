@@ -1,0 +1,27 @@
+#map {
+    float: left;  
+}
+
+#kartalla {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 5px;
+}
+
+#kartlist {
+    min-height: 400px;
+    font-size: 16px;
+}
+
+#joukkueet {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#jouklist {
+    font-size: 16px;
+    min-height: 400px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://appro.mit.jyu.fi/tiea2120/vt/vt3/data.js"></script>
+        <script type="text/javascript" src="vt3.js"></script>
+        <link rel="StyleSheet" href="tyylit.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+        <title>Tulospalvelu</title>
+    </head>
+    <body>
+        
+                <!-- Tämän tiedoston sisältöä saa muuttaa vapaasti tästä kommentista eteenpäin ! -->
+                
+            <div class="row" id="field">
+                <div class="column">
+                <fieldset id="joukkuelista" style="width:400px">
+                    <legend>Lista joukkueista</legend>
+                    <ul id="lista">
+                    </ul>
+                </fieldset>
+                    </div>
+                        
+                <div class="column" id="field">
+                <h1>Lisää joukkue</h1>
+                <form>
+                <fieldset id="joukkueenlisays" style="width:400px" class="row">
+                    <legend>Joukkueen tiedot</legend>
+                    <p>
+                        <label for="joukkueen_nimi">Nimi</label>
+                        <input id="joukkueenNimi" type="text" name="nimi"/>
+                    </p>
+                    
+                    <p>
+                        <label for="luonti_aika">Luontiaika</label>
+                        <input id="luontiAika" type="datetime-local" max="2018-01-01T00:00:00" name="luontiAika" step=".1"/>
+                    </p>
+                    
+                    <p>
+                        <label>Valitse kilpailu</label>
+                        <select name="kilpailu" id="kilpailu">
+                            <option value="Ei kilpailua" id="ei">-</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                    <label for="leimaustapa" id="leimaustapa">Leimaustapa</label>                           
+                    </p>
+                    
+                    <br>
+                    <br>
+                    
+                    <p>
+                    <label for="sarja" id="sarjat">Sarja
+                        <di id="sarjaTaulukko">
+                        </di>
+                        </label>                
+                    </p> 
+                    
+                </fieldset>
+                
+                <fieldset id="jasenet" style="width:400px">
+                    <legend>Jäsenet</legend>
+                    <p>
+                        <label for="jasen1">Jäsen 1</label>
+                        <input id="jasen1" type="text" name="jasen">
+                    </p>
+                    <p>
+                        <label for="jasen2">Jäsen 2</label>
+                        <input id="jasen2" type="text" name="jasen">
+                    </p>
+                    <p>
+                        <label for="jasen3">Jäsen 3</label>
+                        <input id="jasen3" type="text" name="jasen">
+                    </p>
+                    <p>
+                        <label for="jasen4">Jäsen 4</label>
+                        <input id="jasen4" type="text" name="jasen">
+                    </p>
+                    <p id="jasen5p">
+                        <label for="jasen5">Jäsen 5</label>
+                        <input id="jasen5" type="text" name="jasen">
+                    </p>
+                </fieldset>
+        
+                    <p>
+                        <input type="submit" id="tallenna" name="tallenna" value="Tallenna">
+                        <input type="submit" id="tallennaMuutokset" name="tallennaMuutokset" value="Tallenna muutokset">
+                    </p>
+                    
+                </form>
+                
+        
+                
+                <h1>Lisää kilpailu</h1>
+                <form>
+                    <fieldset id="kilp" style="width:400px">
+                        <legend>Kilpailun tiedot</legend>
+                        <p>
+                            <label for="kilpailu_nimi">Nimi</label>
+                            <input id="kilpailunNimi" type="text" name="kilpnimi"/>
+                        </p>
+                        <p>
+                            <label for="kilpailu_kesto">Kesto (tunteina)</label>
+                            <input id="kilpailunKesto" type="text" name="kilpkesto"/>
+                        </p>
+                        <p>
+                            <label for="alkuaika">Alkuaika</label>
+                            <input id="alkuaika" type="datetime-local" name="alkuaika"/>
+                        </p>
+                        <p>
+                            <label for="loppuaika">Loppuaika</label>
+                            <input id="loppuaika" type="datetime-local" name="loppuaika"/>
+                        </p>
+                        
+                    </fieldset>
+                    <p><input type="submit" id="tallennaKisa" name="tallennaKisa" value="Tallenna"></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
